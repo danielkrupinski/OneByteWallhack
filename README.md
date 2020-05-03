@@ -17,3 +17,4 @@ The **r_drawothermodels** check is modified to make the `if` expression evaluate
 
 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁! :
 You may need to head to "C:\Users\ username \AppData\Local\Programs\Python\Python38-32\Scripts" press Win+R write "cmd" and "pip install pymem" and or "pip install pywin32" and restart your pc.
+You will also need to run this script as administrator
