@@ -3,7 +3,7 @@ import re
 
 pm = pymem.Pymem('csgo.exe')
 client = pymem.process.module_from_name(pm.process_handle,
-                                        'client_panorama.dll')
+                                        'client.dll')
 
 clientModule = pm.read_bytes(client.lpBaseOfDll, client.SizeOfImage)
 address = client.lpBaseOfDll + re.search(rb'\x83\xF8.\x8B\x45\x08\x0F',
