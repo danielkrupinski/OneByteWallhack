@@ -1,5 +1,5 @@
 # OneByteWallhack
-CS:GO wallhack achieved by patching one byte of game process memory. Written in Python 3.8.2
+CS:GO wallhack achieved by patching one byte of game process memory. Written in Python 3.9
 
 This does the same as **r_drawothermodels 2** command but without touching the cvar, so it's VAC - safe.
 
