@@ -16,7 +16,7 @@ if ( r_drawothermodels.GetInt() == 2 )
 The **r_drawothermodels** check is modified to make the `if` expression evaluate to **true** when **r_drawothermodels** cvar is set to default value (1).
 
 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁! :
-Download python 3.8.2 or newer if you hadn't: https://www.python.org/downloads/
+Download python 3.9 or newer if you hadn't: https://www.python.org/downloads/
 You may need to head to "C:\Users\ username \AppData\Local\Programs\Python\Python38-32\Scripts" press Win+R write "cmd" and "pip install pymem" and or "pip install pywin32" and restart your pc.
 
 Usage: 
