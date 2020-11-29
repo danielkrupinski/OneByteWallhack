@@ -1,4 +1,4 @@
-from pymem import Pymem,process
+from pymem import Pymem,process,exception
 from re import search
 
 try:
@@ -15,5 +15,5 @@ try:
 
     print("hack completed")
     
-except:
+except exception.ProcessNotFound:
     print("error: couldn't find process",processName)
